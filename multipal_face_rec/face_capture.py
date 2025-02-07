@@ -17,6 +17,7 @@ if not cap.isOpened():
     print("Error: Could not access the webcam.")
     exit()
 
+
 capture_count = 0
 
 while capture_count < num_photos:
